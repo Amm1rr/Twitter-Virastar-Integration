@@ -2,7 +2,7 @@
 // @name         Twitter Virastar Integration
 // @version      0.1
 // @author       Amm1rr
-// @description  ویراستار توییت‌های فارسی
+// @description  ویراستارِ توییت‌های فارسی
 // @homepage     https://www.github.com/amm1rr/
 // @namespace    amm1rr.com.virastar
 // @match        https://x.com/*
