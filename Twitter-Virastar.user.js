@@ -7,9 +7,9 @@
 // @namespace    amm1rr.com.virastar
 // @match        https://x.com/home
 // @match        https://x.com/compose/post
-// @require      https://raw.githubusercontent.com/zoghal/virastar/refs/heads/master/lib/virastar.js
+// @require      https://raw.githubusercontent.com/Amm1rr/Virastar/refs/heads/master/lib/virastar.js
 // @grant        none
-// @updateURL    https://github.com/Amm1rr/Twitter-Virastar-Integration/raw/refs/heads/main/Twitter-Virastar.user.js
+// @updateURL    https://raw.githubusercontent.com/Amm1rr/Twitter-Virastar-Integration/refs/heads/main/Twitter-Virastar.user.js
 // ==/UserScript==
 
 // توییتر از کتابخانه Draft.js برای فیلد متنی استفاده می‌کند، که مدیریت state در React را پیچیده می‌سازد.
