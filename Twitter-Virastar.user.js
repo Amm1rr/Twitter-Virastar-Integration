@@ -6,6 +6,7 @@
 // @homepage     https://www.github.com/amm1rr/
 // @namespace    amm1rr.com.virastar
 // @match        https://x.com/home
+// @match        https://x.com/compose/post
 // @require      https://raw.githubusercontent.com/zoghal/virastar/refs/heads/master/lib/virastar.js
 // @grant        none
 // @updateURL    https://github.com/Amm1rr/Twitter-Virastar-Integration/raw/refs/heads/main/Twitter-Virastar.user.js
@@ -32,6 +33,7 @@
   const SELECTORS = {
     TWEET_FIELD: '[data-testid="tweetTextarea_0"]',
     TWEET_BUTTON: '[data-testid="tweetButtonInline"]',
+    TWEET_BUTTON_POSTPAGE: '[data-testid="tweetButton"]',
     VIRASTAR_BUTTON: "#virastar-button",
   };
 
@@ -114,9 +116,25 @@
 
   // ایجاد دکمه ویراستار و تنظیم رویدادهای مربوطه
   function initVirastarButton() {
+    const currentPath = window.location.pathname;
+    let tweetButton; // Declare tweetButton in the outer scope
+
+    // Select the appropriate tweet button based on the current path
+    if (currentPath.startsWith("/compose/post")) {
+      tweetButton = document.querySelector(SELECTORS.TWEET_BUTTON_POSTPAGE);
+    } else if (currentPath.startsWith("/home")) {
+      tweetButton = document.querySelector(SELECTORS.TWEET_BUTTON);
+    }
+
     const tweetField = document.querySelector(SELECTORS.TWEET_FIELD);
-    const tweetButton = document.querySelector(SELECTORS.TWEET_BUTTON);
-    if (!tweetField || document.getElementById("virastar-button")) return;
+
+    // Ensure tweetButton and tweetField are available, and prevent multiple initializations
+    if (
+      !tweetField ||
+      !tweetButton ||
+      document.getElementById("virastar-button")
+    )
+      return;
 
     // ایجاد دکمه ویراستار
     const editButton = document.createElement("button");
