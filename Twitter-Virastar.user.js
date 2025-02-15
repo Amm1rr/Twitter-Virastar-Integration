@@ -5,7 +5,7 @@
 // @homepage     https://github.com/Amm1rr/Twitter-Virastar-Integration/
 // @namespace    amm1rr.com.virastar
 // @match        https://x.com/*
-// @require      https://raw.githubusercontent.com/Amm1rr/Virastar/refs/heads/master/lib/virastar.js
+// @require      https://github.com/brothersincode/virastar/raw/refs/heads/master/lib/virastar.js
 // @grant        none
 // @updateURL    https://github.com/Amm1rr/Twitter-Virastar-Integration/raw/main/Twitter-Virastar.user.js
 // @downloadURL  https://github.com/Amm1rr/Twitter-Virastar-Integration/raw/main/Twitter-Virastar.user.js
