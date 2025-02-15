@@ -2,7 +2,7 @@
 
 اگر شما توییت‌های فارسی می‌نویسید و می‌خواهید سریع و راحت کیفیت نگارش خود را بالا ببرید، این اسکریپت دقیقاً همان چیزی است که نیاز دارید. به‌محض نوشتن یک توییت جدید (یا پاسخ‌دادن به توییتی)، دکمه‌ای به نام «ویراستار» دیده می‌شود که کلیک بر آن تمام ریزه‌کاری‌های نگارشی را درست می‌کند؛ از تصحیح فاصله‌گذاری و نیم‌فاصله تا یکدست‌کردن حروف عربی و فارسی. بدون هیچ دردسر اضافه، متن شما حرفه‌ای و استاندارد خواهد شد، درست مثل اینکه یک ویراستار انسانی روی توییت شما کار کرده باشد.
 
-[![نمایش مراحل استفاده](assets/Process-thumb.jpg)](assets/Process.jpg)
+[<img src="assets/Process.jpg" alt="Twitter Follower Count Screenshot" width="400">](assets/Process.jpg)
 
 ---
 
@@ -30,11 +30,11 @@
 
 - **مدیر اسکریپت** (Userscript Manager) نظیر:
 
-  | افزونه                                                                | پلتفرم‌های پشتیبانی‌شده                                                                                                                                                                                                      |
-  | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-  | [Violentmonkey](https://violentmonkey.github.io/)                     | ![Chrome](https://img.shields.io/badge/Chrome-✓-success?logo=google-chrome) ![Firefox](https://img.shields.io/badge/Firefox-✓-success?logo=firefox) ![Edge](https://img.shields.io/badge/Edge-✓-success?logo=microsoft-edge) |
-  | [Tampermonkey](https://www.tampermonkey.net/)                         | ![Safari](https://img.shields.io/badge/Safari-✓-success?logo=safari) ![Opera](https://img.shields.io/badge/Opera-✓-success?logo=opera)                                                                                       |
-  | [Userscripts](https://apps.apple.com/us/app/userscripts/id1463298887) | ![iOS](https://img.shields.io/badge/iOS-✓-success?logo=apple)                                                                                                                                                                |
+| افزونه                                                                | پلتفرم‌های پشتیبانی‌شده                                                                                                                                                                                                                                                                                                                                             |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[Violentmonkey](https://violentmonkey.github.io/)** _(Recommended)_ | ![Chrome](https://img.shields.io/badge/Chrome-✓-success?logo=google-chrome) ![Firefox](https://img.shields.io/badge/Firefox-✓-success?logo=firefox) ![Edge](https://img.shields.io/badge/Edge-✓-success?logo=microsoft-edge)                                                                                                                                        |
+| [Tampermonkey](https://www.tampermonkey.net/)                         | ![Chrome](https://img.shields.io/badge/Chrome-✓-success?logo=google-chrome) ![Edge](https://img.shields.io/badge/Edge-✓-success?logo=microsoft-edge) ![Safari](https://img.shields.io/badge/Safari-✓-success?logo=safari) ![Opera](https://img.shields.io/badge/Opera-✓-success?logo=opera) ![Firefox](https://img.shields.io/badge/Firefox-✓-success?logo=firefox) |
+| [Userscripts](https://apps.apple.com/us/app/userscripts/id1463298887) | ![iOS](https://img.shields.io/badge/iOS-✓-success?logo=apple)                                                                                                                                                                                                                                                                                                       |
 
 ### مراحل نصب
 
