@@ -12,7 +12,7 @@
 
 <div align="center">
   <a href="https://youtu.be/boqXQ3MTle0" target="_blank">
-    <img src="assets/Demo.gif" alt="ویدیوی دمو ویراستار فارسی" width="400">
+    <img src="assets/Demo.gif" alt="ویدیوی دمو ویراستار فارسی" width="600">
   </a>
 </div>
 
