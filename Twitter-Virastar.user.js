@@ -9,6 +9,7 @@
 // @grant        none
 // @updateURL    https://github.com/Amm1rr/Twitter-Virastar-Integration/raw/main/Twitter-Virastar.user.js
 // @downloadURL  https://github.com/Amm1rr/Twitter-Virastar-Integration/raw/main/Twitter-Virastar.user.js
+// @license      MIT
 // ==/UserScript==
 
 /*
