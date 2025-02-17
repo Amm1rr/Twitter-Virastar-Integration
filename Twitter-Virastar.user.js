@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         Twitter Virastar Integration
-// @version      0.1
+// @version      0.1.1
 // @description  ویراستارِ توییت‌های فارسی در X (Twitter)
 // @homepage     https://github.com/Amm1rr/Twitter-Virastar-Integration/
 // @namespace    amm1rr.com.virastar
 // @match        https://x.com/*
-// @require      https://github.com/brothersincode/virastar/raw/refs/heads/master/lib/virastar.js
+// @require      https://update.greasyfork.org/scripts/527228/1538801/Virastar%20Library.js
 // @grant        none
-// @updateURL    https://github.com/Amm1rr/Twitter-Virastar-Integration/raw/main/Twitter-Virastar.user.js
-// @downloadURL  https://github.com/Amm1rr/Twitter-Virastar-Integration/raw/main/Twitter-Virastar.user.js
+// @updateURL    https://raw.githubusercontent.com/Amm1rr/Twitter-Virastar-Integration/main/Twitter-Virastar.user.js
+// @downloadURL  https://raw.githubusercontent.com/Amm1rr/Twitter-Virastar-Integration/main/Twitter-Virastar.user.js
 // @license      MIT
 // ==/UserScript==
 
